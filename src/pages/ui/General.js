@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import '../css/adminlte.css'
-import Alerts from '../UI/Alerts'
-import Callouts from '../UI/Callouts'
-import ColorPalette from '../UI/ColorPalette'
+import '../../dist/css/adminlte.css'
+import Alerts from '../../components/Alerts'
+import ColorPalette from '../../components/ColorPalette.js'
+import Callouts from '../../components/Callouts.js'
 
 export class General extends Component {
     render() {
